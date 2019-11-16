@@ -1,7 +1,7 @@
 .rowheader{   
 
     background-color:black;
-    color:red;
+    color:white;
     font-size:20px;
     display:flex;
     justify-content:space-around;
@@ -11,8 +11,6 @@
    
 }
 .rowmid{
-    background-color:black;
-    color:red;
     align-items:center;
     font-size:50px;
     margin-top:5px;
@@ -22,27 +20,19 @@
 .aboutme{
     border:1px solid black;   
 }
-body{
-  background-color:red;
-}
 .rowfooter{
 text-align:center;
-background-color:black;
-color:red;
 }
 .rowcontact{
   display:flex;
   justify-content:space-around;
   background-color:black;
-  color:red;
 }
 a{
-  color: red;
+  color:white;
 }
 h1{
   text-align: center;
-  background-color: black;
-  color: red;
 }
 .me{
   font-size: 40px;
