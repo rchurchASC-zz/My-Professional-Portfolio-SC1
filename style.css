@@ -13,7 +13,7 @@
     margin-bottom:5px;
     text-align: center;
 }
-#headshot{
+.headshot{
   width:350px;
   transform:rotate(90deg);
   text-align:center;
@@ -30,7 +30,7 @@ text-align:center;
   background-color:black;
   font-size:30px;
 }
-a{
+.web{
   color:white;
 }
 h1{
@@ -40,7 +40,38 @@ h1{
   font-size: 40px;
 }
 .projectNames{
-  background-color:black;
   font-size:30px;
   text-align:center;
+}
+.gamerow1{
+  display: flex;
+  justify-content: center;
+}
+.gamerow2{
+  display: flex;
+  justify-content: center;
+}
+.gamerow3{
+  display: flex;
+  justify-content: center;
+}
+.gamerow4{
+  display: flex;
+  justify-content: center;
+}
+.gamerow5{
+  display: flex;
+  justify-content: center;
+}
+.gameimg{
+  width:25%;
+}
+.projectlinks{
+  color:black;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:red;
 }
