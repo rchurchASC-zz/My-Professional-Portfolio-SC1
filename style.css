@@ -39,13 +39,17 @@ h1{
 .me{
   font-size: 40px;
 }
-.projectNames{
+.project1{
+  display:flex;
   font-size:30px;
-  text-align:center;
+}
+.project2{
+  display:flex;
+  font-size:30px;
 }
 .gamerow1{
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 .gamerow2{
   display: flex;
@@ -64,7 +68,7 @@ h1{
   justify-content: center;
 }
 .gameimg{
-  width:25%;
+  width:100%;
 }
 .projectlinks{
   color:black;
@@ -74,4 +78,10 @@ a{
 }
 a:hover{
   color:red;
+}
+.imglink{
+  width:20%;
+}
+.projectimg{
+  width:20%;
 }
