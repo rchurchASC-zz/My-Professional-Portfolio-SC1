@@ -7,21 +7,74 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="rowheader">
-            <p><a class="web" href="index.html">Home</a></p>
-            <p><a class="web" href="aboutme.html">About Me</a></p>
-            <p><a class="web" href="portfolio.html">Portfolio</a></p>
+    <nav class="navbar">
+      <p><a class="web" href="#mid">Home</a></p>
+      <p><a class="web" href="#aboutme">About Me</a></p>
+      <p><a class="web" href="#portfolio">Portfolio</a></p>
+    </nav>
+    <div id="mid">
+      <h1>Rahmel</h1>
+      <img id="headshot"src="rahmel.jpg">
+      <h1>Church Jr</h1>
+    </div>
+    <div id="aboutme">
+          <h1>About Me</h1>
+          <p class="me">I love to play video games and code from time to time. I aspire to be a game developer and maybe have my own game development company.</p>
         </div>
-        <div class="rowmid">
-            <h1>Rahmel</h1>
-            <img class="headshot"src="rahmel.jpg">
-            <h1>Church Jr</h1>
+        <div class="rowgamesliked">
+          <h1 class="gamehead">Games I Like</h1>
+          <div class="gamerow1">
+            <a class="imglink" href="https://www.ea.com/en-gb/games/apex-legends"target="_blank">
+            <img class="gameimg" src="https://media1.giphy.com/media/fUN9Jal2W57RqQXL2s/giphy.gif"></a>
+            <h2>Apex Legends</h2>
+          </div>
+          <div class="gamerow2">
+            <a class="imglink" href="https://www.callofduty.com/modernwarfare"target="_blank">
+            <img class="gameimg" src="https://thumbs.gfycat.com/BeautifulAnotherHamadryas-size_restricted.gif"></a>
+            <h2>Call of Duty: Modern Warfare</h2>
+          </div>
+          <div class="gamerow3">
+            <a class="imglink" href="https://nba.2k.com/en-US/"target="_blank">
+            <img class="gameimg" src="https://thumbs.gfycat.com/InsignificantEmbellishedFurseal-size_restricted.gif"></a>
+            <h2>NBA 2K20</h2>
+          </div>
+          <div class="gamerow4">
+            <a class="imglink" href="https://rainbow6.ubisoft.com/siege/en-us/home/index.aspx"target="_blank">
+            <img class="gameimg" src="https://thumbs.gfycat.com/DecentVigilantDouglasfirbarkbeetle-size_restricted.gif"></a>
+            <h2>Tom Clancy's Rainbow Six Siege</h2>
+          </div>
+          <div class="gamerow5">
+            <a class="imglink" href="https://playoverwatch.com/en-gb/"target="_blank">
+            <img class="gameimg" src="https://thumbs.gfycat.com/WeightyCriminalFairyfly-max-1mb.gif"></a>
+            <h2>Overwatch</h2>
+          </div>
+    </div>
+    <div id="portfolio">
+      <h1>Portfolio</h1>
+      <div class="projects">
+        <div class="project1">
+          <img class="projectimg" src="https://sociorocketnewsen.files.wordpress.com/2013/10/silhouette.jpg?w=610">
+          <p><a class="projectlinks" href="https://rchurchasc.github.io/Which-Character-Are-You/"target="_blank">Which character are you?</a><br>This project was created with some HTML but mainly used Jquery which is a form of Javascript. The user inputs their answer to the two questions and a character is chosen based on what they inputted.</p>
         </div>
-        <div class="rowcontact">
-                <p><a class="web" href="https://github.com/rchurchASC"target="_blank">Github</a></p>
-                <p><a class="web" href="rahmelchurch@gmail.com"target="_blank">Gmail</a></p>
-                <p><a class="web" href="https://www.linkedin.com/in/rahchurch26/" target="_blank">LinkedIn</a></p>       
+        <div class="project2">
+          <img class="projectimg" src="https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SY450_.jpg">
+          <p><a class="projectlinks" href="https://rchurchasc.github.io/Treasure-Hunt/"target="_blank">Treasure Hunt</a><br>Treasure Hunt is a heavily Jquery created project that puts the user through a series of commands that leads them to the treasure with a nice rhyme scheme.</p>
         </div>
+        <div class="project3">
+          <img class="projectimg" src="https://image.shutterstock.com/image-vector/cartoon-pig-face-260nw-500403991.jpg">
+          <p><a class="projectlinks" href="https://rchurchasc.github.io/piglatinizer/"target="_blank">Pig Latin</a><br>Put in a word, any word. In this project, the user puts in a word and depending on the first letter of that word, the word goes through a peculiar transformation. Go ahead and try it out.</p>
+        </div>
+        <div class="project4">
+          <img class="projectimg" src="https://media1.tenor.com/images/b2a284afcda426722f679d3298566ced/tenor.gif?itemid=4954978">
+          <p><a class="projectlinks" href="https://rchurchasc.github.io/rockpaperscissors/"target="_blank">Rock Paper Scissors</a><br>Play a fun game of Rock Paper Scissors against the computer and see if you can win. Good luck, have fun, and lowercase only please.</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <p><a class="web" href="https://github.com/rchurchASC"target="_blank">Github</a></p>
+      <p><a class="web" href="rahmelchurch@gmail.com"target="_blank">Gmail</a></p>
+      <p><a class="web" href="https://www.linkedin.com/in/rahchurch26/" target="_blank">LinkedIn</a></p>      
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
