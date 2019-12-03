@@ -17,7 +17,7 @@
   position:sticky;
   top:0;
   width:100%;
-
+  z-index:10;
 }
 #mid{
   font-size:50px;
